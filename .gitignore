@@ -129,7 +129,7 @@ public/signedDocuments
 uploads/
 
 # config
-config/
+
 
 var/
 pm2/
