@@ -131,7 +131,6 @@ uploads/
 # config
 config/
 
-
 var/
 pm2/
 
