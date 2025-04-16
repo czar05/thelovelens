@@ -9,7 +9,6 @@ const router = express.Router();
 
 router.use('/user', UserRouter)
 // global error handler;
-//need tod do
 router.use('/photographer', PhotographerRouter);
 router.use('/portfolio', PortfolioRouter);
 router.use('/availability', AvailabilityRouter);
