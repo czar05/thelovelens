@@ -11,12 +11,7 @@ const app = express();
 // Enable CORS for all routes
 app.use(cors());
 
-// Or you can specify CORS options
-app.use(cors({
-  origin: 'http://localhost:3000', // Replace with your client domain
-  methods: 'GET,POST,PUT,DELETE',
-  allowedHeaders: 'Content-Type,Authorization'
-}));
+
 
 const PORT = process.env.PORT || 3000;
 app.use(express.json());
